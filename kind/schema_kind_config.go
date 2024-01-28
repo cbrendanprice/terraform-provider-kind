@@ -107,6 +107,10 @@ func kindConfigNodeFields() map[string]*schema.Schema {
 				Schema: kindConfigNodeExtraPortMappingsFields(),
 			},
 		},
+		"gpus": {
+			Type:     schema.TypeBool,
+			Optional: true,
+		},
 		"labels": {
 			Type:     schema.TypeMap,
 			Optional: true,

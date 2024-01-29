@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     kind = {
-      source  = "tehcyx/kind"
+      source  = "cbrendanprice/kind"
       version = "~> 0.0.19"
     }
   }

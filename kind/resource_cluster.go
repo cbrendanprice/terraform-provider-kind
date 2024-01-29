@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
+	"github.com/cbrendanprice/kind/pkg/cluster"
+	"github.com/cbrendanprice/kind/pkg/cmd"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	clientcmd "k8s.io/client-go/tools/clientcmd"
-	"sigs.k8s.io/kind/pkg/cluster"
-	"sigs.k8s.io/kind/pkg/cmd"
 )
 
 func resourceCluster() *schema.Resource {

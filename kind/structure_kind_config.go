@@ -3,7 +3,7 @@ package kind
 import (
 	"strings"
 
-	"sigs.k8s.io/kind/pkg/apis/config/v1alpha4"
+	"github.com/cbrendanprice/kind/pkg/apis/config/v1alpha4"
 )
 
 // Flatteners

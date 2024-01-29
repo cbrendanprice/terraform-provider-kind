@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
+	kindDefaults "github.com/cbrendanprice/kind/pkg/apis/config/defaults"
+	"github.com/cbrendanprice/kind/pkg/cluster"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	kindDefaults "sigs.k8s.io/kind/pkg/apis/config/defaults"
-	"sigs.k8s.io/kind/pkg/cluster"
 )
 
 func init() {

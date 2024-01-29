@@ -1,12 +1,12 @@
-module github.com/tehcyx/terraform-provider-kind
+module github.com/cbrendanprice/terraform-provider-kind
 
 go 1.21
 
 require (
+	github.com/cbrendanprice/kind v0.20.2
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.31.0
 	github.com/pelletier/go-toml v1.9.5
 	k8s.io/client-go v12.0.0+incompatible
-	sigs.k8s.io/kind v0.20.0
 )
 
 require (
